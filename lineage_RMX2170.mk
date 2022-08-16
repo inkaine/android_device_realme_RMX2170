@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/realme/RMX1851/device.mk)
+$(call inherit-product, device/realme/RMX2170/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -16,10 +16,10 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX2170
 PRODUCT_MANUFACTURER := Realme
 
-#BUILD_FINGERPRINT := "Realme/RMX1851/RMX1851:9/PKQ1.190101.001/1574084019:user/release-keys"
+BUILD_FINGERPRINT := "realme/RMX2170EEA/RMX2170L1:12/SKQ1.210216.001/Q.GDPR.202207211900:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-#    PRIVATE_BUILD_DESC="sdm710-user 9 PKQ1.190101.001 eng.root.20191209.210742 release-keys" \
+    PRIVATE_BUILD_DESC="RMX2170EEA-user 12 SKQ1.210216.001 Q.GDPR.202207211900 release-keys" \
     PRODUCT_NAME="RMX2170" \
     TARGET_DEVICE="RMX2170"
 
