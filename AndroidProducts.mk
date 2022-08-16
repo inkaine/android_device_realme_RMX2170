@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xperience_RMX2170.mk
+    $(LOCAL_DIR)/lineage_RMX2170.mk
